@@ -1,0 +1,133 @@
+.mynavbar{
+    cursor:pointer;
+    transition: all .5s;
+}
+.mynavbar:hover{
+    background-color: red;
+    color: white;
+  }
+  
+  .mybtn{
+    height: 70px;
+          background-color: #ba1f19;
+          color: white;
+          cursor: pointer;
+          margin: 0 auto;
+          font-size: 22px;
+          font-weight: 700;
+          padding: 20px 100px;transition: all .3s;
+  }
+  .mybtn:hover{
+    background-color: white;color: #ba1f19;
+    transition: all .3s;
+  }
+  .imgdiv{
+    width: 50%;
+    transition: all .3s;
+  }
+  .imgdiv:hover{
+    
+    background-color: rgba(0,0,0,.5);
+    transition: all .3s;
+  }
+  .imghoverleft{
+    position: absolute;
+    top:1580px;
+    display: block;
+    width: 50%;
+    text-align: center;
+    justify-content: center;
+    opacity: 0;
+    transition: all .3s;
+    cursor: pointer;
+  }
+  .imghoverleft:hover{
+    opacity:1
+  } 
+  .imghoverright{
+    position: absolute;
+    top:1580px;
+    display: block;
+    width: 50%;
+    text-align: center;
+    opacity: 0;
+    transition: all .3s;
+    cursor: pointer;
+  }
+  .imghoverright:hover{
+    opacity:1;
+    cursor: pointer;
+  } 
+  .imgparaleft{
+    position: absolute;
+    top:1800px;
+    display: block;
+    width: 50%;
+    text-align: center;
+    justify-content: center;
+    opacity: 1;
+    transition: all .3s;
+    text-decoration: none;
+    font-weight: bolder;
+    color: white;
+    font-size: 23px;
+    padding-top: 30px;
+  }
+  .imgparaleft:hover{
+    opacity:1;
+    color: #ba1f19 ;
+  }  
+  .imgpararight{
+    position: absolute;
+    top:1800px;
+    display: block;
+    width: 50%;
+    text-align: center;
+    justify-content: center;
+    opacity: 1;
+    transition: all .3s;
+    text-decoration: none;
+    font-weight: bolder;
+    color: white;
+    font-size: 23px;
+    padding-top: 30px;
+  }
+  .imgpararight:hover{
+    opacity:1;
+    color: #ba1f19 ;
+    cursor: pointer;
+  }
+  .lm{
+    text-decoration: none;
+    transition: all .3s;
+    opacity: 0;
+  }
+  .lm:hover{
+    color:#ba1f19;
+    opacity: 1;
+  }
+  .header {
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ),
+      url(./Assets/Images/pexels-shvets-production-7562298.jpg);
+    height: 90vh;
+    background-size: cover;
+    background-position: top;
+    padding: 100px;
+  }
+  .footerlink{
+    text-decoration: none;
+    color: #f0f7ee;
+    transition: all .5s;
+    display: flex;
+    opacity: 1;
+    color: #f0f7ee;
+    font-size: larger;
+    font-weight: 500;
+  }
+  .footerlink:hover{
+    color: #ba1f19;
+  }
+  
