@@ -28,77 +28,34 @@
     transition: all .3s;
   }
   .imgdiv:hover{
-    
     background-color: rgba(0,0,0,.5);
     transition: all .3s;
   }
-  .imghoverleft{
-    position: absolute;
-    top:1530px;
-    display: block;
-    width: 50%;
+  .imghover{
+    padding-top: 80px;
+    width: 100%;
     text-align: center;
-    justify-content: center;
     opacity: 0;
     transition: all .3s;
     cursor: pointer;
   }
-  .imghoverleft:hover{
+  .imghover:hover{
     opacity:1
-  } 
-  .imghoverright{
-    position: absolute;
-    top:1530px;
-    display: block;
-    width: 50%;
+  }  
+  .imgpara{
     text-align: center;
-    opacity: 0;
-    transition: all .3s;
-    cursor: pointer;
-  }
-  .imghoverright:hover{
-    opacity:1;
-    cursor: pointer;
-  } 
-  .imgparaleft{
-    position: absolute;
-    top:1730px;
-    display: block;
-    width: 50%;
-    text-align: center;
-    justify-content: center;
     opacity: 1;
     transition: all .3s;
     text-decoration: none;
     font-weight: bolder;
     color: white;
     font-size: 23px;
-    padding-top: 30px;
   }
-  .imgparaleft:hover{
+  .imgpara:hover{
     opacity:1;
     color: #ba1f19 ;
   }  
-  .imgpararight{
-    position: absolute;
-    top:1730px;
-    display: block;
-    width: 50%;
-    text-align: center;
-    justify-content: center;
-    opacity: 1;
-    transition: all .3s;
-    text-decoration: none;
-    font-weight: bolder;
-    color: white;
-    font-size: 23px;
-    padding-top: 30px;
-  }
-  .imgpararight:hover{
-    opacity:1;
-    color: #ba1f19 ;
-    cursor: pointer;
-  }
+  
   .lm{
     text-decoration: none;
     transition: all .3s;
@@ -187,4 +144,8 @@
   .btncontact:hover{
     background-color: white;color: #ba1f19;
     transition: all .5s;
+  }
+  .bgimg{
+    width: 100%;
+    height: 400px;
   }
