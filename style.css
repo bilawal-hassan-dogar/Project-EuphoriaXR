@@ -15,9 +15,9 @@
           color: white;
           cursor: pointer;
           margin: 0 auto;
-          font-size: 18px;
+          font-size: 20px;
           font-weight: 700;
-          padding: 20px 100px;transition: all .3s;
+          padding: 20px 80px;transition: all .3s;
   }
   .mybtn:hover{
     background-color: white;color: #ba1f19;
@@ -162,6 +162,12 @@
     width: 100%;
     cursor: pointer;
   }
+  .congro{
+    font-size: 80px;
+          color: #dadada;
+          font-weight: bolder;
+          text-align: center;
+  }
   @media only screen and (max-width: 768px) {
     .imgdiv{
         width: 100%;
@@ -170,7 +176,7 @@
       width: 50%;
     }
     .congro{
-      font-size: 45px;
+      font-size: 40px;
     }
     .tiles{
       width: 100%;
