@@ -15,7 +15,7 @@
           color: white;
           cursor: pointer;
           margin: 0 auto;
-          font-size: 20px;
+          font-size: 22px;
           font-weight: 700;
           padding: 20px 80px;transition: all .3s;
   }
@@ -74,7 +74,7 @@
     height: 90vh;
     background-size: cover;
     background-position: top;
-    padding: 100px;
+    padding-top: 120px;
   }
   .footerlink{
     text-decoration: none;
@@ -176,7 +176,7 @@
       width: 50%;
     }
     .congro{
-      font-size: 40px;
+      font-size: 45px;
     }
     .tiles{
       width: 100%;
