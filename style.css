@@ -1,6 +1,8 @@
 .mynavbar{
     cursor:pointer;
     transition: all .5s;
+    background-color: #232323 !important; 
+    padding: 20px;
 }
 .mynavbar:hover{
     background-color: red;
@@ -32,7 +34,7 @@
   }
   .imghoverleft{
     position: absolute;
-    top:1580px;
+    top:1530px;
     display: block;
     width: 50%;
     text-align: center;
@@ -46,7 +48,7 @@
   } 
   .imghoverright{
     position: absolute;
-    top:1580px;
+    top:1530px;
     display: block;
     width: 50%;
     text-align: center;
@@ -60,7 +62,7 @@
   } 
   .imgparaleft{
     position: absolute;
-    top:1800px;
+    top:1730px;
     display: block;
     width: 50%;
     text-align: center;
@@ -79,7 +81,7 @@
   }  
   .imgpararight{
     position: absolute;
-    top:1800px;
+    top:1730px;
     display: block;
     width: 50%;
     text-align: center;
@@ -130,4 +132,59 @@
   .footerlink:hover{
     color: #ba1f19;
   }
+  .dropbtn {
+    background-color: transparent;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+  }
+  .dropbtn:hover{
+    transition: all .5s;
+    color: #ba1f19;
+  }
   
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #232323;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {color: #ba1f19;transition: all .5s;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+
+  .btncontact{
+    height: 40px;
+    background-color: #ba1f19;
+    color: white;
+    cursor: pointer;
+    font-weight: 700;
+    width: 100px;
+  }
+  .btncontact:hover{
+    background-color: white;color: #ba1f19;
+    transition: all .5s;
+  }

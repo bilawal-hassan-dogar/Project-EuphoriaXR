@@ -19,10 +19,9 @@
     <!-- navbar -->
     <div style="margin: 0 auto">
       <nav
-        class="navbar navbar-expand-lg navbar-dark bg-dark"
-        style="justify-content: space-between"
+        class="navbar navbar-expand-lg justify-content-between bg-dark mynavbar"
       >
-        <div style="width: 40%; padding: 20px">
+        <div>
           <img
             src="./Assets/Logos/cropped-euphorialogo.png"
             alt="Logo"
@@ -30,51 +29,34 @@
           />
         </div>
         <div>
-          <div
-            class="collapse navbar-collapse"
-            id="navbarNavDropdown"
-            style="width: 60%; justify-content: space-between; display: flex"
-          >
-            <ul class="navbar-nav" style="margin-left: 200px">
-              <li class="nav-item" style="padding: 2px">
-                <a class="btn btn-dark mynavbar sty" href="#">About</a>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <button class="dropbtn" href="#">About</button>
               </li>
-              <li class="nav-item dropdown">
-                <a
-                  class="nav sty-link dropdown-toggle btn btn-dark mynavbar"
-                  href="#"
-                  id="navbarDropdownMenuLink"
-                  data-toggle="dropdown"
-                  aria-haspopup="true"
-                  aria-expanded="false"
-                >
-                  Services
-                </a>
-                <div
-                  class="dropdown-menu btn btn-dark mynavbar"
-                  aria-labelledby="navbarDropdownMenuLink"
-                >
-                  <a class="dropdown-item btn btn sty-dark mynavbar" href="#"
-                    >Action</a
-                  >
-                  <a class="dropdown-item btn btn sty-dark mynavbar" href="#"
-                    >Another action</a
-                  >
-                  <a class="dropdown-item btn btn sty-dark mynavbar" href="#"
-                    >Something else here</a
-                  >
+              <div class="dropdown">
+                <button class="dropbtn">Services</button>
+                <div class="dropdown-content">
+                  <a href="#">All Services</a>
+                  <a href="#">- 360 Video Production</a>
+                  <a href="#">- VR Development</a>
+                  <a href="#">- AR Development</a>
+                  <a href="#">- Metaverse and NFT</a>
+                  <a href="#">- WebVR & WebAR</a>
+                  <a href="#">- MVP Builder</a>
                 </div>
+              </div>
+              <li class="nav-item active">
+                <button class="dropbtn" href="#">Work</button>
               </li>
               <li class="nav-item">
-                <a class="nav-link btn btn-dark sty mynavbar" href="#"
-                  >Features</a
-                >
+                <button class="dropbtn" href="#">What's New</button>
               </li>
-              <li class="nav-item">
-                <a class="nav-link btn btn-dark sty mynavbar" href="#"
-                  >Pricing</a
-                >
+
+              <li class="nav-item active">
+                <button class="btn btncontact">Contact</button>
               </li>
+              <li class="nav-item"></li>
             </ul>
           </div>
         </div>
@@ -223,7 +205,7 @@
           />
         </div>
         <div style="width: 50%">
-          <a class="imgparaleft" href="#" style="top: 2170px"
+          <a class="imgparaleft" href="#" style="top: 2130px"
             >Virtual Reality</a
           >
         </div>
@@ -244,7 +226,7 @@
           />
         </div>
         <div style="width: 50%">
-          <a class="imgpararight" href="#" style="top: 2170px"
+          <a class="imgpararight" href="#" style="top: 2130px"
             >360 Video and Virtual Reality</a
           >
         </div>
@@ -265,7 +247,7 @@
           />
         </div>
         <div style="width: 50%">
-          <a class="imgparaleft" href="#" style="top: 2580px"
+          <a class="imgparaleft" href="#" style="top: 2530px"
             >Augmented Reality</a
           >
         </div>
@@ -286,7 +268,7 @@
           />
         </div>
         <div style="width: 50%">
-          <a class="imgpararight" href="#" style="top: 2580px"
+          <a class="imgpararight" href="#" style="top: 2530px"
             >360 Video and Virtual Reality</a
           >
         </div>
@@ -299,7 +281,7 @@
             style="width: 100%; height: 400px"
           />
         </div>
-        <div class="imghoverleft" style="top: 2765px">
+        <div class="imghoverleft" style="top: 2730px">
           <img
             src="./Assets/Logos/Harbinger-White-01-1.webp"
             alt=""
@@ -307,7 +289,7 @@
           />
         </div>
         <div style="width: 50%">
-          <a class="imgparaleft" href="#" style="top: 2990px"
+          <a class="imgparaleft" href="#" style="top: 2930px"
             >Augmented Reality & WebVR/AR</a
           >
         </div>
@@ -320,7 +302,7 @@
             style="width: 100%; height: 400px"
           />
         </div>
-        <div class="imghoverright" style="top: 2765px">
+        <div class="imghoverright" style="top: 2730px">
           <img
             src="./Assets/Logos/TXDOT-Look-Twice.png"
             alt=""
@@ -328,7 +310,7 @@
           />
         </div>
         <div style="width: 50%">
-          <a class="imgpararight" href="#" style="top: 2990px"
+          <a class="imgpararight" href="#" style="top: 2930px"
             >360 Video and Virtual Reality</a
           >
         </div>
@@ -529,84 +511,84 @@
           flex-wrap: wrap;
         "
       >
-        <div style="width: 20%">
+        <div style="width: 18%">
           <img
             style="width: 100%; cursor: pointer"
             src="./Assets/Logos/vw-logo@2x-300x300.png"
             alt=""
           />
         </div>
-        <div style="width: 20%">
+        <div style="width: 18%">
           <img
             style="width: 100%; cursor: pointer"
             src="./Assets/Logos/unwomen-logo@2x-300x300.png"
             alt=""
           />
         </div>
-        <div style="width: 20%">
+        <div style="width: 18%">
           <img
             style="width: 100%; cursor: pointer"
             src="./Assets/Logos/txdot-logo@2x-300x300.png"
             alt=""
           />
         </div>
-        <div style="width: 20%">
+        <div style="width: 18%">
           <img
             style="width: 100%; cursor: pointer"
             src="./Assets/Logos/statetexas-logo@2x-1-300x300.png"
             alt=""
           />
         </div>
-        <div style="width: 20%">
+        <div style="width: 18%">
           <img
             style="width: 100%; cursor: pointer"
             src="./Assets/Logos/schlotzsky-logo@2x-1.png"
             alt=""
           />
         </div>
-        <div style="width: 20%">
+        <div style="width: 18%">
           <img
             style="width: 100%; cursor: pointer"
             src="./Assets/Logos/qatarairways-logo@2x-300x300.png"
             alt=""
           />
         </div>
-        <div style="width: 20%">
+        <div style="width: 18%">
           <img
             style="width: 100%; cursor: pointer"
             src="./Assets/Logos/makeawish-logo@2x-300x300.png"
             alt=""
           />
         </div>
-        <div style="width: 20%">
+        <div style="width: 18%">
           <img
             style="width: 100%; cursor: pointer"
             src="./Assets/Logos/lloydsbank-logo@2x-1.png"
             alt=""
           />
         </div>
-        <div style="width: 20%">
+        <div style="width: 18%">
           <img
             style="width: 100%; cursor: pointer"
             src="./Assets/Logos/3ds-logo@2x.png"
             alt=""
           />
         </div>
-        <div style="width: 20%">
+        <div style="width: 18%">
           <img
             style="width: 100%; cursor: pointer"
             src="./Assets/Logos/fia-logo@2x.png"
             alt=""
           />
         </div>
-        <div style="width: 20%">
+        <div style="width: 18%">
           <img
             style="width: 100%; cursor: pointer"
             src="./Assets/Logos/hasbro-logo@2x.png"
             alt=""
           />
         </div>
-        <div style="width: 20%">
+        <div style="width: 18%">
           <img
             style="width: 100%; cursor: pointer"
             src="./Assets/Logos/juncosracing-logo@2x-300x300.png"
@@ -623,7 +605,7 @@
           color: #dadada;
           font-weight: bolder;
           text-align: center;
-          padding: 50px 0 20px 0;
+          padding: 50px 0 18px 0;
         "
       >
         Congratulations!
